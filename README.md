@@ -144,3 +144,9 @@ demo, not a real listing.
 Type is Cormorant Garamond over Inter. Tested at 1440×900 and 390×844.
 `prefers-reduced-motion` drops the parallax, the blur and the word stagger, and
 snaps the scrub instead of easing it.
+
+## Tests
+
+`python -m pytest -q tests` serves the page locally, opens it in Chromium and checks
+that the headline shows and no script error is thrown — on load and while scrolling.
+Needs `pip install pytest playwright` and `python -m playwright install chromium`.
