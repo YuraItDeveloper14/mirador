@@ -1,5 +1,8 @@
 # Mirador
 
+<!-- badges -->
+[![CI](https://github.com/YuraItDeveloper14/mirador/actions/workflows/check.yml/badge.svg)](https://github.com/YuraItDeveloper14/mirador/actions/workflows/check.yml) [![License](https://img.shields.io/github/license/YuraItDeveloper14/mirador?color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/YuraItDeveloper14/mirador)](https://github.com/YuraItDeveloper14/mirador/commits)
+
 A one-page site whose hero is a film you scrub with the scroll wheel. Scroll
 position maps onto the video's `currentTime`, so the camera flies through the
 house at exactly the speed you read — stop reading, and the flight stops.
